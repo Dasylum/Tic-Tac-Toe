@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-A Tic-Tac-Toe game with the use of factory functions and DOM manipulation
+A Tic-Tac-Toe game with the help of factory functions and DOM manipulation
