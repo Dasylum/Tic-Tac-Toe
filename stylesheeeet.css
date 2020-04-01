@@ -1,0 +1,36 @@
+.gameboard{
+	height: 150px;
+	width:400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row; 
+}
+
+body {
+	padding-top: 200px;
+}
+
+div div {
+	height: 100px;
+	width: 120px;
+}
+
+div div:nth-child(1),
+div div:nth-child(2),
+div div:nth-child(3),
+div div:nth-child(4),
+div div:nth-child(5),
+div div:nth-child(6) {
+  border-bottom: 3px solid black;
+}
+
+div div:nth-child(1),
+div div:nth-child(4),
+div div:nth-child(7),
+div div:nth-child(2),
+div div:nth-child(5),
+div div:nth-child(8) {
+  border-right: 3px solid black;
+}
